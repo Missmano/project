@@ -1,0 +1,116 @@
+{
+  "id": "b870226f-9ec3-4ce2-bc0b-4f3ff996ec4c",
+  "name": "FAQ - ELS -  Button",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "FAQ-ELS-button-followup",
+          "parameters": {},
+          "lifespan": 2
+        },
+        {
+          "name": "FAQ-ELS-Button-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "facebook",
+          "condition": "",
+          "title": "ELS",
+          "subtitle": "ELS",
+          "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhUSEhIVFRUXGBcXFxgXFRUVFRUXFxcXFxUXFxgYHSggGB0lHRcXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGxAQGi0gICUrLS0tLS0tLS0vLS0tLS0tLS0tLS0tLS0vLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAADBAIFAAEGBwj/xAA7EAACAQIEAwYDBgUEAwEAAAABAgADEQQSITEFQVEGEyJhcZEygaEUQrHB0fAHUmLh8SMzgpJjctIV/8QAGQEAAwEBAQAAAAAAAAAAAAAAAQIDBAAF/8QAKBEAAgICAgICAgICAwAAAAAAAAECEQMhEjEEQRNRIjKB0XHhFEJh/9oADAMBAAIRAxEAPwCrtMyyYmWliAJlgXWNNAPFYUK1Fi7iNVIu5iMogDCQk3kDJMojQk1EiIRBFGNhXJtTpPVaxNkHIbn/ABCYHC4iqbU6Ivpozrc32A1F5YcE4ilBxVNwyZipAzA5gFKuDcBbXN7H8xc4Wugw5xVLIxVxmCoVejf7y5mCsp8OqjTNa2lorbQySZR4jg2LpXFbC1EtzOXLbrmJsfebPBa+TOKNQr1CMy/9kBX6z03sx2u74ZKtRwTsy0/Bc30Js21tzYeITXaHBKl61BwWYqWyjKpFxqTTWzX89fMSfyNOmMonkLLz+Xz6QTT2bD4vA4hRTqK1RrLnJo1HBYCxOcK2XY6hxz1nM8b7K4Jq3d4esaTnVRrWosNLXK3ekb3GubaNGabr2K1R58IVBLHivZ7EYe5qJdAf9xCKlP8A7Lt6GxiKCUiKwqCHprBoIxTEqiTCIsYRYNBDoJRE2TUQggqFQMLjqR7Eg/UQ0cQyakrTRnHETNSRkZxxEyJkzIGccDaBeHaAeAIF4u8YeAeA4XeAeHeLvAETxkS3juLiyKZglvIxjtrzd4INNlp6IhJjAOZJngHaBsZIHUgHhHaAcybZRA2kTNkyJkmURIQqiCWFUwBCKbaiSooCxzKGJ1Bvl6kJpyv5iQBkrzjh/FV6fgNJX7wCz02GdFYfeVhuDvYqbWOp0M7zsj2oqgjC1BTZgNGaoECm/wALBRrY6DKOg8555hce9IeAtmBBSzZQDtqd7fMSwp1XqEO4pAurVBSoIq97kJD2RNS3xabnzvJZIJqmUTPVMDwbEU6pqBqPiJLAUTzN7BiwM5L+K+BKoldsPnGiNUW96drlfDmN7ljrbl6QnY7tgbrSxAKowC0zVdvCRoAVFzY3GrbEdNu1x2Dw7DLVCkHcaop9dReZHJ4ppsbbR5ZhOIdxwrvRTrUqtRj3T2q5Guba+KwBGblbXacnh+KqzIlYKCxAaqAKYW5t4gt1IG5IAM9f7QU6QwtTDU1d6TAjJkfwXPxU6mXqdjf1AnmHZ/hNFsWlOrmCZiKhDKy6/AudOTXANus0Yci4yl/IkovSLPinZ6vh9XXMnJ11Ujr++sSQT1zi1I9y+QZgBfLppbptlI5Xt6zxVOOrnK1FsAbB18r/AO4OZ8x9d4/ieT8q2uhMuLj0WyCHQQdKxAIIIOxGoPoYdRN6MrB0EykryJLD5m7D3N/+UPaRdfcaibVri8YUlNGbmjOOImaka9ZUGZiAP3oOp8psG4vr+BnHGjImSMiYDgbwLwzwDzggXgHh3i7wHC7wDw7mAeAIlioKntJYltZukNJhgrm2MdVeYZG8izTeA05gHMm7QDtFYyIOYB2k3MAxk2URu8jeRJmAxGOgqmEBglMmDAcEBks0GDMJnHEy0ylimRs6HK42bmvXbU6XHleCJgyZxxYVcQwDP8ThgSApNQAiwNvu631/q5TvP4cdorBqddqVMEgo7a1CWJurEWHLS50vb084OK0GwI0LAC7LawVzzA0AJvYabWtpa",
+          "buttons": [
+            {
+              "text": "หลักสูตรออนไลน์ต้องมีเนื้อหาอะไรบ้าง",
+              "postback": "หากต้องการนำหลักสูตรขึ้นระบบ ELS"
+            }
+          ],
+          "lang": "th"
+        },
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "สามารถพิมพ์สอบถามมาได้เลยค่ะหรือเลือกหัวข้อต่างๆ ได้จากข้างล่างนี้ค่ะทางเราพร้อมตอบมากกก"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "64de14ec-410d-4823-b872-804632353a7d",
+      "data": [
+        {
+          "text": "การนำหลักสูตรขึ้นระบบ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d2f5941f-5138-4225-9bc4-6803b6de9b4d",
+      "data": [
+        {
+          "text": "การ​นำ​หลักสูตร​ขึ้น​ระบบ​",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "0977ec46-82a4-4583-b84a-ed9aa39dcbe3",
+      "data": [
+        {
+          "text": "การนำหลักสูตรขึ้น ELS",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8b9eb68b-dd84-4799-a5c1-3f30b13a5a50",
+      "data": [
+        {
+          "text": "การนำหลักสูตรขึ้นระบบ ELS",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "7fb94cc0-f4d3-4fd7-80f4-2a7f6e898736",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "ฉันไม่เข้าใจค่ะ พูดใหม่ได้ไหมคะ \nเราสารมารถช่วยท่านได้ในเรื่องของ งานพัฒนาบุคลากร และ การนำหลักสูตรขึ้น ELS"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": true,
+  "events": [],
+  "userSays": [
+    {
+      "id": "cc9c8c1b-a170-41fc-bc76-1fe04de2f3f2",
+      "data": [
+        {
+          "text": "กสไสาไรก",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fdbfef36-40f3-42cc-8bc3-34f5fc4bc94b",
+      "data": [
+        {
+          "text": "สวัสดีค่ะฝ่ายฝ่ายพัฒนาศักยภาพทรัพยากรบุคคลและคุณภาพ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

@@ -1,0 +1,269 @@
+{
+  "id": "2ad157fd-d98e-489e-884e-66570d3b09ea",
+  "name": "FAQ - HRD - Button",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "FAQ-HRD-Button-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "สามารถพิมพ์สอบถามมาได้เลยค่ะหรือเลือกหัวข้อต่างๆ ได้จากข้างล่างนี้ค่ะทางเราพร้อมตอบมากกก"
+        },
+        {
+          "type": 4,
+          "condition": "",
+          "payload": {
+            "line": {
+              "type": "template",
+              "altText": "this is a carousel template",
+              "template": {
+                "type": "carousel",
+                "imageAspectRatio": "rectangle",
+                "imageSize": "cover",
+                "columns": [
+                  {
+                    "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/11/21/gJF1WN.md.png",
+                    "imageBackgroundColor": "#FFFFFF",
+                    "title": "หากผู้ปฏิบัติงานสนใจอบรมหลักสูตรออนไลน์ของปี2563",
+                    "text": "หากผู้ปฏิบัติงานสนใจอบรมหลักสูตรออนไลน์ของปี2563",
+                    "defaultAction": {
+                      "type": "uri",
+                      "label": "MANO",
+                      "uri": "https://drive.google.com/file/d/16zuljAVxTVQgmuw12PRzpxWUCpWxadgG/view?usp=sharing"
+                    },
+                    "actions": [
+                      {
+                        "type": "uri",
+                        "label": "รายละเอียด",
+                        "uri": "https://drive.google.com/file/d/16zuljAVxTVQgmuw12PRzpxWUCpWxadgG/view?usp=sharing"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "ติอต่อสอบถาม",
+                        "uri": "http://hrd.egat.co.th/hrdweb/index.php/about-us/hr/department-a-2#second"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "เว็บไซต์(อศค)",
+                        "uri": "http://hrd.egat.co.th/hrdweb/"
+                      }
+                    ]
+                  },
+                  {
+                    "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/11/21/gJF1WN.md.png",
+                    "imageBackgroundColor": "#FFFFFF",
+                    "title": "ใครเป็นผู้รับผิดชอบงบพัฒนาบุคลากรของหน่วยงาน",
+                    "text": "ใครเป็นผู้รับผิดชอบงบพัฒนาบุคลากรของหน่วยงาน",
+                    "defaultAction": {
+                      "type": "uri",
+                      "label": "รายละเอียด",
+                      "uri": "https://drive.google.com/file/d/1fpEC_G3zbxSrcoyTO4FRA4cbgMwP-coK/view?usp=sharing"
+                    },
+                    "actions": [
+                      {
+                        "type": "uri",
+                        "label": "รายละเอียด",
+                        "uri": "https://drive.google.com/file/d/1fpEC_G3zbxSrcoyTO4FRA4cbgMwP-coK/view?usp=sharing"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "ติอต่อสอบถาม",
+                        "uri": "http://hrd.egat.co.th/hrdweb/index.php/about-us/hr/department-a-2#second"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "เว็บไซต์(อศค)",
+                        "uri": "http://hrd.egat.co.th/hrdweb/"
+                      }
+                    ]
+                  },
+                  {
+                    "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/11/21/gJF1WN.md.png",
+                    "imageBackgroundColor": "#FFFFFF",
+                    "title": "หลักสูตรภายนอกโดยใช้งบสายงาน(งบ22)",
+                    "text": "หลักสูตรภายนอกโดยใช้งบสายงาน(งบ22)",
+                    "defaultAction": {
+                      "type": "uri",
+                      "label": "MANO",
+                      "uri": "https://drive.google.com/file/d/1qb7J-SZm1eDPcwHTuVNTTGL58WN5SC9r/view?usp=sharing"
+                    },
+                    "actions": [
+                      {
+                        "type": "uri",
+                        "label": "รายละเอียด",
+                        "uri": "https://drive.google.com/file/d/1qb7J-SZm1eDPcwHTuVNTTGL58WN5SC9r/view?usp=sharing"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "ติอต่อสอบถาม",
+                        "uri": "http://hrd.egat.co.th/hrdweb/index.php/about-us/hr/department-a-2#second"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "เว็บไซต์(อศค)",
+                        "uri": "http://hrd.egat.co.th/hrdweb/"
+                      }
+                    ]
+                  },
+                  {
+                    "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/11/21/gJF1WN.md.png",
+                    "imageBackgroundColor": "#FFFFFF",
+                    "title": "สามารถเบิกค่าลงทะเบียนหลักสูตรออนไลน์จาก กฟผ.",
+                    "text": "สารมารถเบิกค่าลงทะเบียนหลักสูตรออนไลน์จาก กฟผ.",
+                    "defaultAction": {
+                      "type": "uri",
+                      "label": "รายละเอียด",
+                      "uri": "https://drive.google.com/file/d/1bwX8zBF3X5eqSAN4EBxgB-g1HvLMwU4E/view?usp=sharing"
+                    },
+                    "actions": [
+                      {
+                        "type": "uri",
+                        "label": "รายละเอียด",
+                        "uri": "https://drive.google.com/file/d/1bwX8zBF3X5eqSAN4EBxgB-g1HvLMwU4E/view?usp=sharing"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "ติอต่อสอบถาม",
+                        "uri": "http://hrd.egat.co.th/hrdweb/index.php/about-us/hr/department-a-2#second"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "เว็บไซต์(อศค)",
+                        "uri": "http://hrd.egat.co.th/hrdweb/"
+                      }
+                    ]
+                  },
+                  {
+                    "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/11/21/gJF1WN.md.png",
+                    "imageBackgroundColor": "#FFFFFF",
+                    "title": "หัวหน้าสามารถดูประวัติการอบรมของผู้ใต้บังคับบัญชา",
+                    "text": "หัวหน้าสามารถดูประวัติการอบรมของผู้ใต้บังคับบัญชา",
+                    "defaultAction": {
+                      "type": "uri",
+                      "label": "MANO",
+                      "uri": "https://drive.google.com/file/d/1GEa8Kfafbv6xM2oCRD-_nx2ZH3a48rWH/view?usp=sharing"
+                    },
+                    "actions": [
+                      {
+                        "type": "uri",
+                        "label": "รายละเอียด",
+                        "uri": "https://drive.google.com/file/d/1GEa8Kfafbv6xM2oCRD-_nx2ZH3a48rWH/view?usp=sharing"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "ติอต่อสอบถาม",
+                        "uri": "http://hrd.egat.co.th/hrdweb/index.php/about-us/hr/department-a-2#second"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "เว็บไซต์(อศค)",
+                        "uri": "http://hrd.egat.co.th/hrdweb/"
+                      }
+                    ]
+                  },
+                  {
+                    "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/11/21/gJF1WN.md.png",
+                    "imageBackgroundColor": "#FFFFFF",
+                    "title": "หากงบ(22)ไม่เพียงพอสารมารถขอเพิ่มเติมได้หรือไม่?",
+                    "text": "หากงบ(22)ไม่เพียงพอสารมารถขอเพิ่มเติมได้หรือไม่?",
+                    "defaultAction": {
+                      "type": "uri",
+                      "label": "MANO",
+                      "uri": "https://drive.google.com/file/d/16zuljAVxTVQgmuw12PRzpxWUCpWxadgG/view?usp=sharing"
+                    },
+                    "actions": [
+                      {
+                        "type": "uri",
+                        "label": "รายละเอียด",
+                        "uri": "https://drive.google.com/file/d/16zuljAVxTVQgmuw12PRzpxWUCpWxadgG/view?usp=sharing"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "ติอต่อสอบถาม",
+                        "uri": "http://hrd.egat.co.th/hrdweb/index.php/about-us/hr/department-a-2#second"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "เว็บไซต์(อศค)",
+                        "uri": "http://hrd.egat.co.th/hrdweb/"
+                      }
+                    ]
+                  },
+                  {
+                    "thumbnailImageUrl": "https://sv1.picz.in.th/images/2019/11/21/gJF1WN.md.png",
+                    "imageBackgroundColor": "#FFFFFF",
+                    "title": "หากสนใจอบรมรหลักสุตร (อพอ.) และ (อปภ.) ",
+                    "text": "หากสนใจอบรมรหลักสุตร (อพอ.) และ (อปภ.) ",
+                    "defaultAction": {
+                      "type": "uri",
+                      "label": "MANO",
+                      "uri": "https://drive.google.com/file/d/1L0d3Z6ABKA_ihP7P-HOhhSCoyhoyPiTW/view?usp=sharing"
+                    },
+                    "actions": [
+                      {
+                        "type": "uri",
+                        "label": "รายละเอียด",
+                        "uri": "https://drive.google.com/file/d/1L0d3Z6ABKA_ihP7P-HOhhSCoyhoyPiTW/view?usp=sharing"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "ติอต่อสอบถาม",
+                        "uri": "http://hrd.egat.co.th/hrdweb/index.php/about-us/hr/department-a-2#second"
+                      },
+                      {
+                        "type": "uri",
+                        "label": "เว็บไซต์(อศค)",
+                        "uri": "http://hrd.egat.co.th/hrdweb/"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "lang": "th"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "ecd5260c-771e-438c-8e79-449d4e596339",
+      "data": [
+        {
+          "text": "งานพัฒนาบุคลากร",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 6,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
