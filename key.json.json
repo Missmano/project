@@ -1,0 +1,237 @@
+{
+  "id": "b581829c-2d53-4e05-ad13-26f9ebb354b6",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "condition": "",
+          "payload": {
+            "responseId": "78901418-a397-42ae-b259-63de174c2770",
+            "queryResult": {
+              "queryText": "start over",
+              "parameters": {},
+              "allRequiredParamsPresent": true,
+              "fulfillmentMessages": [
+                {
+                  "platform": "ACTIONS_ON_GOOGLE",
+                  "simpleResponses": {
+                    "simpleResponses": [
+                      {
+                        "textToSpeech": "**Hello there!**\n\nDo you have any questions about my [courses](https://learn.miningbusinessdata.com)?"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "platform": "ACTIONS_ON_GOOGLE",
+                  "suggestions": {
+                    "suggestions": [
+                      {
+                        "title": "Yes"
+                      },
+                      {
+                        "title": "No"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "outputContexts": [
+                {
+                  "name": "projects/testagent-ed43c/agent/sessions/ab06d0e0-6cd7-115c-6a59-21d2f0071f3e/contexts/awaiting_has_questions",
+                  "lifespanCount": 1
+                }
+              ],
+              "intent": {
+                "name": "projects/testagent-ed43c/agent/intents/694e1b85-a34d-440f-80b7-de4b9d5c1ebe",
+                "displayName": "event.WEBCHAT_WELCOME"
+              },
+              "intentDetectionConfidence": 1,
+              "languageCode": "en"
+            }
+          },
+          "lang": "th"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "userSays": [
+    {
+      "id": "129138c9-10b4-4ce7-b37f-4a75cae7273e",
+      "data": [
+        {
+          "text": "สวัสดี",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "bb5f2d86-39c1-40cd-bb0c-c1725fc493f6",
+      "data": [
+        {
+          "text": "ทักครับ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7ce14fc5-8a8f-4577-8030-9c2e97aed6ca",
+      "data": [
+        {
+          "text": "หวัดดีจ้ะ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "43e6c1f1-0306-4f55-ad4e-264e0370c795",
+      "data": [
+        {
+          "text": "สวัสดีน้า",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a6344312-5ccd-478e-a94d-36437b68115c",
+      "data": [
+        {
+          "text": "ว่าไง",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c3773789-b1b0-4783-99c4-8ff81db4607d",
+      "data": [
+        {
+          "text": "สวีดัส",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6b6ebded-59a6-4ecf-b906-bf85df072df9",
+      "data": [
+        {
+          "text": "สวัสดีจ้ะ",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "53b9fc16-070d-43a0-849d-73ddba1195a6",
+      "data": [
+        {
+          "text": "หวัดดีจ้า",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e2a13128-06bc-4a29-b4bf-9c32eca56791",
+      "data": [
+        {
+          "text": "ไม่เจอกันตั้งนาน",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "d9588474-0ea9-4e4b-bc8d-2c9d8cdc7aeb",
+      "data": [
+        {
+          "text": "ขอทักทาย",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e6b8aceb-0ba7-479e-82b2-bc29c9219a15",
+      "data": [
+        {
+          "text": "หวัดดี",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}
